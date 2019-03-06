@@ -15,12 +15,15 @@ public class Radio {
     private boolean on;
     private Voice driverVoice;
     public static final int MAX_VOLUME=10;
-//
-    //
-   //
-    //
-    //
-    //
+
+    public Voice getDriverVoice() {
+        return driverVoice;
+    }
+
+    public void setDriverVoice(Voice driverVoice) {
+        this.driverVoice = driverVoice;
+    }
+
     
     /**
      * @return the channel
