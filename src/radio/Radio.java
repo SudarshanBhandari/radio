@@ -28,7 +28,12 @@ public class Radio {
     public int getChannel() {
         return channel;
     }
-
+//
+    //
+    //
+    //
+    //
+    //
     /**
      * @param channel the channel to set
      */
